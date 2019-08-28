@@ -1,17 +1,4 @@
-API: https://thinkful-list-api.herokuapp.com/jamesj-bookmarks-app/items
-
 # JamesJ-bookmarks-app
-
-## Due Date and Grading
-You have until the end of day Wednesday (8PM ET) to complete your project and submit it for evaluation. To receive a passing grade, the project must:
-
-- [ ] Fulfill every non-extension user story below
-- [ ] Fulfill every non-extension technical requirement below
-## For successful submission, you MUST:
-
-- [ ] Push your final version to the gh-pages branch of your repo. Your repo should be inside the cohort's organization and named [yourname]-bookmarks-app.
-- [ ] Add the live GH Pages link to the header of your repo.
-- [ ] Submit the repo URL at the bottom of this page.
 
 ## User Stories
 ### As a user:
@@ -31,7 +18,6 @@ You have until the end of day Wednesday (8PM ET) to complete your project and su
 - [x] I receive appropriate feedback when I cannot submit a bookmark
 - [x] Check all validations in the API documentation (e.g. title and url field required)
 - [x] I can select from a dropdown a "minimum rating" to filter the list by all bookmarks rated at or above the chosen selection
-- [ ] (Extension) I can edit the rating and description of a bookmark in my list
 
 ## Technical Requirements
 - [x] Use fetch for AJAX calls and jQuery for DOM manipulation
@@ -45,13 +31,10 @@ You have until the end of day Wednesday (8PM ET) to complete your project and su
 - [x] Use semantic HTML
 - [x] Use responsive design
 - [x] Visually and functionally solid in viewports for mobile and desktop
-- [ ] Follow a11y best practices
-
-Refer back to the lessons on accessibility, forms
+- [x] Follow a11y best practices
 
 ## To-Do List
 - [x] Clicking to expand a new bookmark doesn't work without refresh
 - [x] Delete and expand actions look at same click event (need to rearrange HTML)
 - [x] Implement API error/response handling
-- [ ] Cleanup CSS to not use IDs for styling anything
-- [ ] Empty state when no bookmarks exist
+- [x] Cleanup CSS to not use IDs for styling anything
