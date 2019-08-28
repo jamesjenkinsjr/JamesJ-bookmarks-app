@@ -1,5 +1,16 @@
 # JamesJ-bookmarks-app
 
+## Due Date and Grading
+You have until the end of day Wednesday (8PM ET) to complete your project and submit it for evaluation. To receive a passing grade, the project must:
+
+- [x] Fulfill every non-extension user story below
+- [x] Fulfill every non-extension technical requirement below
+## For successful submission, you MUST:
+
+- [x] Push your final version to the gh-pages branch of your repo. Your repo should be inside the cohort's organization and named [yourname]-bookmarks-app.
+- [x] Add the live GH Pages link to the header of your repo.
+- [x] Submit the repo URL at the bottom of this page.
+
 ## User Stories
 ### As a user:
 
