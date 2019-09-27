@@ -2,7 +2,7 @@
 
 // eslint-disable-next-line
 const api = (function(){
-  const BASE_URL = 'https://thinkful-list-api.herokuapp.com/jamesj-bookmarks-app';
+  const BASE_URL = 'https://bookmarker-app-api.herokuapp.com'; //'https://bookmarker-app-api.herokuapp.com';
 
   // create a fetch promise for a POST request
   const createBookmark = function(bookmark = Object){
