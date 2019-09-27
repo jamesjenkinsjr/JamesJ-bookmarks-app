@@ -44,8 +44,13 @@ const bookmarkList = function(){
     $('.js-bookmark-list').on('click', '#delete', e => {
       let entryID = getItemIdFromElement(e.target);
       api.deleteBookmark(entryID)
-        .then(res => res.json())
-        .then(resJSON => {
+        .then(res => {
+          if(res.status === 204) {
+            return res;
+          }
+          throw new Error('request failed');
+        })
+        .then( res => {
           store.deleteBookmarkByID(entryID);
           render();
         })
