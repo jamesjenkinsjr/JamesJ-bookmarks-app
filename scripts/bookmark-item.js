@@ -33,7 +33,7 @@ const bookmarkItem = function(){
         <div data-bookmark-id="${obj.id}" class="bookmark-expand">
           <h3>${obj.title}</h3>
           <p class="rating">${stars}</p>
-          <p class="desc" placeholder="No description provided" disabled>${obj.desc = obj.desc ? obj.desc : 'No description provided'}</p>
+          <p class="desc" placeholder="No description provided" disabled>${obj.content ? obj.content : 'No description provided'}</p>
           <a href="${obj.url}">Visit Site</a>
         </div>
       </li>
