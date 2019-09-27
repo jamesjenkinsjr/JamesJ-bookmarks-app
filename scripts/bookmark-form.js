@@ -12,8 +12,8 @@ const bookmarkForm = function(){
         <input type="text" name="title" id="title" placeholder="My Awesome Site" required />
         <label for="url">Bookmark URL</label>
         <input type="url" name="url" id="url" placeholder="http://site.com" required />
-        <label for="desc">Description</label>
-        <input type="text" name="desc" id="desc" maxlength="255" placeholder="Enter a summary"/>
+        <label for="content">Description</label>
+        <input type="text" name="content" id="content" maxlength="255" placeholder="Enter a summary"/>
         <label for="rating">My Rating</label>
         <select name="rating" id="rating" min="1" max="5">
           <option value="5">&#x2605&#x2605&#x2605&#x2605&#x2605</option>
